@@ -1,0 +1,64 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5c1f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+@media only screen and (max-width: 414px) {
+    img[alt="RuzSrdce"] {
+        max-width: 30%;
+        height: auto;
+        margin-bottom: 10px;
+        position: absolute;
+        right: 10%;
+        top: 20%;
+        transform: rotate(25deg);
+    }
+
+    img[alt="Ruz2Srdce"] {
+        max-width: 30%;
+        height: auto;
+        margin-bottom: 10px;
+        position: absolute;
+        right: 60%;
+        top: 20%;
+        transform: rotate(-25deg);
+    }
+
+    .container {
+        text-align: center;
+        background-color: #e094d9;
+        padding: 15px;
+        border-radius: 25px;
+    }
+
+    .section1 {
+        background-color: #da74cf;
+        border-radius: 25px;
+        padding: 5px;
+        line-height: 1.5;
+    }
+
+    h1, h2 {
+        color: #000000;
+    }
+
+    button {
+        background-color: #da74cf;
+        color: #000000;
+        padding: 10px 20px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+
+    button:hover {
+        background-color: #2980b9;
+    }
+}
