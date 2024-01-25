@@ -1,6 +1,6 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f5c1f0;
+    background-color: #ffaaaa;
     margin: 0;
     padding: 0;
     display: flex;
@@ -32,13 +32,13 @@ body {
 
     .container {
         text-align: center;
-        background-color: #e094d9;
+        background-color: #c53c3c;
         padding: 15px;
         border-radius: 25px;
     }
 
     .section1 {
-        background-color: #da74cf;
+        background-color: #a31f1f;
         border-radius: 25px;
         padding: 5px;
         line-height: 1.5;
@@ -49,7 +49,7 @@ body {
     }
 
     button {
-        background-color: #da74cf;
+        background-color: #FF668A;
         color: #000000;
         padding: 10px 20px;
         font-size: 16px;
