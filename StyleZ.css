@@ -11,22 +11,22 @@ body {
 
 @media only screen and (max-width: 414px) {
     img[alt="RuzSrdce"] {
-        max-width: 50%;
+        max-width: 25%;
         height: auto;
         margin-bottom: 10px;
         position: absolute;
         right: 10%;
-        top: 30%;
+        top: 23%;
         transform: rotate(25deg);
     }
 
     img[alt="Ruz2Srdce"] {
-        max-width: 50%;
+        max-width: 25%;
         height: auto;
         margin-bottom: 10px;
         position: absolute;
-        right: 10%;
-        top: 30%;
+        right: 64%;
+        top: 23%;
         transform: rotate(-25deg);
     }
 
