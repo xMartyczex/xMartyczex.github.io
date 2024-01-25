@@ -8,6 +8,13 @@ body {
     height: 100vh;
 }
 
+img[alt="cat"] {
+    max-width: 35%;
+    height: auto;
+    margin-bottom: 10px;
+    position: absolute;
+    top: 15%;
+}
 
 .container {
     text-align: center;

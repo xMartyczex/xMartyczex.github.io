@@ -1,6 +1,6 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #ffaaaa;
+    background-color: #dfa9f8;
     margin: 0;
     padding: 0;
     display: flex;
@@ -32,22 +32,26 @@ body {
 
     .container {
         text-align: center;
-        background-color: #FF1E00;
+        background-color: #a148ca;
         padding: 15px;
         border-radius: 25px;
     }
 
     .section1 {
-        background-color: #b31500;
+        background-color: #751d9e;
         border-radius: 25px;
         padding: 5px;
         line-height: 1.5;
     }
 
-    h1, h2 {
+    h1{
         color: #000000;
     }
 
+    h2 {
+        color: #000000;     
+    }
+    
     button {
         background-color: #FF668A;
         font-family: 'Arial', sans-serif;
