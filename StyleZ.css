@@ -32,13 +32,13 @@ body {
 
     .container {
         text-align: center;
-        background-color: #c53c3c;
+        background-color: #FF1E00;
         padding: 15px;
         border-radius: 25px;
     }
 
     .section1 {
-        background-color: #a31f1f;
+        background-color: #b31500;
         border-radius: 25px;
         padding: 5px;
         line-height: 1.5;
@@ -50,12 +50,14 @@ body {
 
     button {
         background-color: #FF668A;
+        font-family: 'Arial', sans-serif;
+        font-weight: bold;
         color: #000000;
         padding: 10px 20px;
         font-size: 16px;
         border: none;
         cursor: pointer;
-        border-radius: 5px;
+        border-radius: 25px;
     }
 
     button:hover {
