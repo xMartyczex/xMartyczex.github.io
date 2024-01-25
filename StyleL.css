@@ -10,12 +10,11 @@ body {
     }
     
     header {
-        background-color: #aa5eb4;
+        background-color: #ad3abd;
         padding: 10px;
         text-align: center;
         border-radius: 20px;
-        top: 5px;
-        position: absolute;
+        position: static;
     }
     
     
@@ -29,6 +28,9 @@ body {
     
     h2 {
         margin-bottom: 10px;
+        background-color: #ad3abd;
+        border-radius: 20px;
+        padding: 10px;
     }
     
    
