@@ -1,0 +1,71 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ff5252;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+img[alt="Jupi"] {
+    max-width: 55%;
+    height: auto;
+    margin-bottom: 10px;
+    position: absolute;
+    top: 5%;
+    border-radius: 20px;
+}
+
+.container {
+    text-align: center;
+    background-color: #f82b2b;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2), 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+
+    background-color: #c42020;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: transform 0.3s ease, border-radius 0.3s ease;
+    border: none;
+    outline: none;
+}
+
+.yes-button {
+    background-color: #6fbf73;
+    color: #000000;
+    border-radius: 25px;
+    border: 2px solid #fff; 
+}
+
+
+.no-button {
+    background-color: #e57373;
+    color: #000000;
+    border-radius: 25px;
+    margin-left: 15px;
+    border: 2px solid #fff; 
+}
+
+
+button:hover {
+    opacity: 0.9;
+    transform: scale(1.05);
+}
+    
+

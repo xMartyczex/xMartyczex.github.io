@@ -7,8 +7,8 @@
     <link rel="stylesheet" type="text/css" href="StyleZ.css">
 </head>
 <body>
-    <img src="srdce.png" alt="RuzSrdce">
-    <img src="srdce.png" alt="Ruz2Srdce">
+    <img src="/Img/srdce.png" alt="RuzSrdce">
+    <img src="Img/srdce.png" alt="Ruz2Srdce">
     <div class="container">
         
         <h1>Čauky!<3</h1>
@@ -28,7 +28,6 @@
             window.location.href = "LoveLetter.html";
         }
 
-        // Odpočet
         var cilovyCas = new Date("2024-01-26T21:00:00").getTime();
 
         var odpočetInterval = setInterval(function() {
@@ -39,7 +38,7 @@
             var minuty = Math.floor((zbyleCas % (1000 * 60 * 60)) / (1000 * 60));
             var sekundy = Math.floor((zbyleCas % (1000 * 60)) / 1000);
 
-            document.getElementById("odpocet").innerHTML = "Stránka se vypne za: " + hodiny + "h " + minuty + "m " + sekundy + "s ";
+            document.getElementById("odpocet").innerHTML = "Stránka se kompletně smaže za: " + hodiny + "h " + minuty + "m " + sekundy + "s ";
 
             if (zbyleCas < 0) {
                 clearInterval(odpočetInterval);
