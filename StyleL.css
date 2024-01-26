@@ -32,17 +32,26 @@ body {
         border-radius: 20px;
         padding: 10px;
     }
-    
-   
-    a {
-        color: #007BFF;
-        text-decoration: none;
+
+    button {
+        background-color: #FF668A;
+        font-family: 'Arial', sans-serif;
+        font-weight: bold;
+        color: #000000;
+        padding: 10px 20px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+        border-radius: 25px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
     }
     
-    a:hover {
-        text-decoration: underline;
+
+    button:hover {
+        background-color: #2980b9;
     }
-
-
 }
+
 
