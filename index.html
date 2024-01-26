@@ -17,6 +17,8 @@
             <h2>Chtěl jsem pro tebe udělat něco hezkého, ale nevěděl jsem co, tak jsem se rozhodl udělat něco malého.</h2>
         </section>
         
+        <div id="odpocet"></div>
+        
         <br> </br>
         <button onclick="presmerujNaStranku()">Zde klikni pro pokračování</button>
     </div>
@@ -25,6 +27,25 @@
         function presmerujNaStranku() {
             window.location.href = "LoveLetter.html";
         }
+
+        // Odpočet
+        var cilovyCas = new Date("2024-01-26T21:00:00").getTime();
+
+        var odpočetInterval = setInterval(function() {
+            var nyni = new Date().getTime();
+            var zbyleCas = cilovyCas - nyni;
+
+            var hodiny = Math.floor((zbyleCas % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minuty = Math.floor((zbyleCas % (1000 * 60 * 60)) / (1000 * 60));
+            var sekundy = Math.floor((zbyleCas % (1000 * 60)) / 1000);
+
+            document.getElementById("odpocet").innerHTML = "Stránka se vypne za: " + hodiny + "h " + minuty + "m " + sekundy + "s ";
+
+            if (zbyleCas < 0) {
+                clearInterval(odpočetInterval);
+                document.getElementById("odpocet").innerHTML = "Stránka byla vypnuta!";
+            }
+        }, 1000);
     </script>
 
 </body>
